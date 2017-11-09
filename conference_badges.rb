@@ -8,3 +8,7 @@ speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def batch_badge_creator(speakers)
   speakers.map { |speaker| "Hello, my name is #{speaker}."  }
 end
+
+def assign_rooms(speakers, index)
+ speakers.map { |speaker| "Hello #{speaker} You'll be assigned to room #{speaker[0]}" }
+end

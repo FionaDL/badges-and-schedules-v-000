@@ -12,3 +12,10 @@ end
 def assign_rooms(speakers)
  speakers.each_with_index.map { |speaker, index| "Hello, #{speaker}! You'll be assigned to room #{index +1}!" }
 end
+
+def printer(speakers)
+  batch_badge_creator
+  assign_rooms.each do |room|
+    puts room
+  end
+end

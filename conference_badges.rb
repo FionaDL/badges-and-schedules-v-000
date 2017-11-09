@@ -1,2 +1,5 @@
 # Write your code here.
-attendes = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+def badge_maker(name)
+  "Hello, my name is #{name}."
+speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+
